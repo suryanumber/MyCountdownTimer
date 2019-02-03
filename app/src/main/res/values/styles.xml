@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_green_dark</item>
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+    </style>
+    <style name="timerColor" parent="Platform.AppCompat">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/accent_material_dark</item>
+    </style>
+    <style name="TimePickerWidgetStyle" parent="@android:style/Widget.Material.TimePicker">
+        <item name="showTitle">false</item>
+        <item name="android:timePickerMode">spinner</item>
+        <item name="android:headerBackground">#ffe082</item>
+        <item name="android:numbersTextColor">#b71c1c</item>
+        <item name="android:numbersInnerTextColor">#f44336</item>
+        <item name="android:numbersSelectorColor">#33691e</item>
+        <item name="android:numbersBackgroundColor">#ef9a9a</item>
+        <item name="android:amPmTextColor">#9c27b0</item>
+    </style>
+
+
+</resources>

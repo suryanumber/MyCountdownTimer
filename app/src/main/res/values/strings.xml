@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="pick_time">"時間を設定"</string>
+    <string name="version">1.01</string>
+    <string name="min">min</string>
+    <string name="sec">sec</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+
+</resources>
